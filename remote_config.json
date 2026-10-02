@@ -1,10 +1,62 @@
 {
-  "download": "https://github.com/NOOBISN/Vpsophod/releases/download/Vpshod/panda.zip",
+  "_comment": "RemoteConfig fetched at login. Per game: automode/floating = launch modes; version = supported game versionName (EXACT match — a wrong/old value BLOCKS launch, leave \"\" to disable the version gate); features aim/esp/bullettrack/sdk = \"safe\" or \"unsafe\" (anything not \"safe\" shows the red icon + tab warning).",
+  "download": "https://github.com/dtvanshulll/fogengine/releases/download/oekoA/PHYSX.zip",
+  "bullettrack": false,
   "games": {
-    "com.pubg.imobile":   { "automode": true,  "floating": true  },
-    "com.tencent.ig":     { "automode": true,  "floating": true  },
-    "com.pubg.krmobile":  { "automode": true,  "floating": true  },
-    "com.vng.pubgmobile":  { "automode": true,  "floating": true  },
-    "com.rekoo.pubgm":    { "automode": true,  "floating": true  }
+    "com.pubg.imobile": {
+      "automode": false,
+      "floating": true,
+      "version": "4.6.0",
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
+      }
+    },
+    "com.tencent.ig": {
+      "automode": false,
+      "floating": true,
+      "version": "4.6.0",
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
+      }
+    },
+    "com.pubg.krmobile": {
+      "automode": false,
+      "floating": true,
+      "version": "4.6.0",
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
+      }
+    },
+    "com.vng.pubgmobile": {
+      "automode": false,
+      "floating": true,
+      "version": "4.6.0",
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
+      }
+    },
+    "com.rekoo.pubgm": {
+      "automode": false,
+      "floating": true,
+      "version": "4.6.0",
+      "features": {
+        "aim": "safe",
+        "esp": "safe",
+        "bullettrack": "safe",
+        "sdk": "safe"
+      }
+    }
   }
 }
